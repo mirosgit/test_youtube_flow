@@ -1,7 +1,7 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from test_youtube.locators import YouTubeLocators
+from test_youtube_flow.locators import YouTubeLocators
 
 from ..base_page import BasePage
 from ..counter import Counter

@@ -27,5 +27,6 @@ def test_youtube_page(browser):
 
     result_main = ResultPassFailMainPage(browser, YOUTUBE_URL)
     result_main.result()
+    result_main.validate_result()
 
 

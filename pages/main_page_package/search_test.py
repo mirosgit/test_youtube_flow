@@ -2,8 +2,8 @@ import random
 
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from test_youtube.locators import YouTubeLocators
-from test_youtube.test_data import TestData
+from test_youtube_flow.locators import YouTubeLocators
+from test_youtube_flow.test_data import TestData
 
 from ..base_page import BasePage
 

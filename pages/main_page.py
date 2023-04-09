@@ -47,3 +47,10 @@ class ResultPassFailMainPage(BasePage):
         print("Passed Tests:", ResultInModules.result_in_modules_pass(self), "-", _percent_pass, "%")
         print("Failed Tests:", ResultInModules.result_in_modules_fail(self), "-", _percent_fail, "%")
         print("==================================")
+
+    def validate_result(self):
+
+        if ResultInModules.result_in_modules_fail(self) > 0:
+
+            assert False
+
